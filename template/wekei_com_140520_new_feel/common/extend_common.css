@@ -1,0 +1,87 @@
+/* ----------------------------------
+
+extend_common.css  file for Discuz! X3
+
+【未来科技】 
+http://www.wekei.cn
+专注于 Discuz模板开发设计等服务。
+详情请 查看 www.wekei.cn
+或咨询 客服 QQ 1508085698 1595675868
+
+Author: Veikei
+Created Time: 2012-09-05
+Modified Time: 2013-08-15
+Update Time: 2014-05-20
+
+---------------------------------- */
+
+/*************************************************************************
+* 
+* 公共属性
+*
+**************************************************************************/
+body, input, button, select, textarea { background:#fff;  font: {FONTSIZE} {FONT}; color: {TABLETEXT}; 
+font-family:"Microsoft yahei","微软雅黑", Arial, Helvetica, sans-serif,  "宋体" ; }
+
+body { background:#f2f2f2 url({STYLEIMGDIR}/bg_body.png) repeat-x center top ;  }
+
+a {outline: none;}
+a:active {star:expression(this.onFocus=this.blur());}
+a:hover { color:#f60; text-decoration:none; }
+:focus { outline:0; }
+
+img, fieldset { border:0; }
+ol, ul, menu { list-style:none; }
+td, th, div { word-break:break-all; word-wrap:break-word }
+* { outline:none } 
+
+
+
+ .wp { margin: 0 auto; width:980px; clear:both; } 
+ #wp .wp { width: auto;}
+
+
+	#toptb { height:43px; line-height: 40px; border:none;  background: url({STYLEIMGDIR}/bg_toptb.png) repeat-x  top center;  }
+		#toptb a { float: left;height:30px;  line-height: 30px; color:#555; }
+		#toptb a.showmenu { padding-right: 15px; }
+		#toptb .pipe { float: left; display: none; }
+#pt { margin-top:0px !important; }
+
+
+/*******************/
+
+/*.wp { margin: 0 auto; width:960px; clear:both; }
+*/
+#wp .wp { width: auto; }
+
+#um .avt img { /*box-shadow:0px 1px 3px #eee; */ border-radius: 0px; padding: 2px; width: 48px; height: 48px; background: #fff; border:1px solid #ddd;  }
+
+#nv { height: 50px; line-height:50px; /*  border-radius:5px 5px 0 0;*/ background: url({STYLEIMGDIR}/nv.gif) repeat-x; }
+#nv ul { height: 50px; overflow: hidden; }
+#nv li { float: left; height: 40px; font-weight:normal; font-size: 14px; color:#333; background: none; }
+.ie_all #nv li { line-height: 40px; }
+.ie6 #nv li { line-height: 40px; }
+#nv li a { float: left; padding:0 20px; text-align:center; width: auto; height: 40px; display:block; line-height: 40px; color: #333; font-size:16px; background: none; }
+#nv li span { display: none; }
+#nv li.a { margin-left:0px;color:#333; box-shadow:0px 0px 3px #eee;border-radius: 5px; border:1px solid #ddd;  background: url({STYLEIMGDIR}/nv_a.gif) repeat-x; }
+
+#nv li a:hover { color:#333; text-decoration:none;  box-shadow:0px 0px 3px #eee;border-radius: 5px;  background: url({STYLEIMGDIR}/nv_a.gif) repeat-x; }
+#nv li.hover a:hover, #nv li.hover a { color:#333; box-shadow:0px 0px 3px #eee;border-radius: 5px;  background: url({STYLEIMGDIR}/nv_a.gif) repeat-x; }
+
+#qmenu { margin-top:10px;  }
+
+.ct2_a, .ct3_a { background-color:#fff; }
+
+	#diy-tg_menu ul li a {  color:#333;}
+
+/********************************************************************
+color redefine
+*********************************************************************/
+
+#nv li a ,#nv li.a , #nv li.a a, #nv li a:hover, #nv li.hover a:hover, #nv li.hover a {  color: #333;  }
+
+/*
+ #toptb, #toptb a  { color:#fff ;}
+*/
+.hdc, .hdc a, #um p { color:#333 !important;}
+

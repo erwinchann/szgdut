@@ -1,0 +1,61 @@
+/** forum::index,forum::forumdisplay,group::index,group::group,search::group **/
+.fl_icn { width: 56px; }
+.fl_icn_g { width: 56px; }
+.fl_g dl { margin-left: 56px;}
+.fl_row td { border-top: 1px solid #eee; }
+
+.fl_i { width: 80px;}
+/** end **/
+
+/** forum::index **/
+.eis_sg{ margin-bottom:10px; background:url({STYLEIMGDIR}/sg.gif) repeat-x 0 0;}
+.eis_sg_h { height:40px; padding-left:40px; line-height:40px; color:#fff; background:url({STYLEIMGDIR}/sg_l.gif) no-repeat 0 0;} 
+.eis_sg_h a{ color:#fff;}
+.eis_sg_hr{ padding-right:10px;background:url({STYLEIMGDIR}/sg_r.gif) no-repeat 100% 0;}
+
+.eis_sg_c{  padding:10px 217px 0 332px; height:242px; position:relative; border:1px solid #ddd; background:url({STYLEIMGDIR}/fl_bm_c.gif) repeat-x 0 100%;}
+
+/*DIY容器*/
+.eis_dtd_l{ position:absolute; width:312px; height:232px;left:0px; top:0;}
+
+
+.eis_dtd_r{ position:absolute; width:197px; height:232px;right:10px; top:10px;}
+
+
+.eis_sg .slidebox{ border:1px solid #ddd; padding:5px; width:300px;}
+.eis_sg .slidebar{ top:6px !important; left:6px !important;}
+
+/*三格*/
+.eis_t1{ border:0px; background:url({STYLEIMGDIR}/t1_m.gif) repeat-x 0 0;}
+.eis_t1 .title{ height:42px; background:url({STYLEIMGDIR}/t1_l.gif) no-repeat 0 0;}
+.eis_t1 .tb{ height:42px; background:url({STYLEIMGDIR}/t1_r.gif) no-repeat 100% 0; padding-left:10px;}
+.eis_t1 .tb li{ border:0px; margin-top:7px;}
+.eis_t1 .tb li a{ color:#333; border:0px;float:left; padding:0 10px; height:28px;line-height:28px;}
+.eis_t1 .tb li.a{ float:left; margin-right:10px; background:url({STYLEIMGDIR}/t1_li.gif) no-repeat 0 0; }
+.eis_t1 .tb li.a a{  color:#fff; padding:0 20px; background:url({STYLEIMGDIR}/t1_li.gif) no-repeat 100% -28px;}
+
+.eis_t1 .tb-c{ border:1px solid #ddd; border-top:0px; background:#fff; padding:7px 10px 7px 10px;}
+
+.eis_t1 .eis_toplist{ line-height:25px; }
+.eis_t1 .eis_toplist li{ height:25px; padding-left:3px; font-size:12px; overflow:hidden}
+
+/*eis_toplist 帖子列表+分类+作者 */
+.eis_toplist{ line-height:28px; }
+.eis_toplist li{ height:28px; padding-left:3px; font-size:14px; overflow:hidden}
+.eis_toplist li a{ color:#369}
+.eis_toplist li strong{ font-weight:normal; margin-right:4px; font-size:12px}
+.eis_toplist li strong a{ color:#666}
+.eis_toplist li span{ float:right; padding:0 6px; color:#999; font-size:12px}
+.eis_toplist li span a{ color:#999}
+.eis_toplist li em{ font-size:12px; padding-left:5px; color:#999}
+
+.eis_topuser{ border:0px; height:232px; background:url({STYLEIMGDIR}/eis_topuser.gif) no-repeat 0 0; }
+.eis_topuser .frame-title{ height:42px; background:none; line-height:42px; font-size:16px; font-weight:400; }
+/** end **/
+
+/** forum::viewthread, group::viewthread **/
+/*内容*/
+
+.t_f, .t_f td { line-height:2.0; }
+
+/** end **/

@@ -1,0 +1,106 @@
+﻿/*
+[name]幽灵古堡[/name]
+[iconbgcolor]url(template/eis_free/style/t10/cover.gif) no-repeat 0 0[/iconbgcolor]
+Powered by Eisdl.com
+*/
+
+body{ background:url(body.jpg) no-repeat 50% 0 #000;}
+.eis_body_1{ background:none}
+
+/*导航*/
+#eis_nv{ background:url(nv.png) no-repeat 0 0;}
+.eis_nv{ background:url(nv.png) no-repeat 100% 100%;}
+.eis_nv ul{background:url(nv.png) repeat-x 0 -45px;}
+.eis_nv ul li{ background:url(nv_li.png) no-repeat 100% 12px; }
+
+/*论坛*/
+.fl .bm{ background:url(fl_bm.gif) repeat-x 0 0;}
+.fl .bm .bm_c{ background:url(fl_bm_c.gif) repeat-x 0 100%; }
+.fl .bm .bm_h{ background:url(fl_bm_h.gif) no-repeat 100% 0;}
+.fl .bm .bm_h h2,.fl .bm .bm_h h3{ background:url(fl_bm_h_h2.gif) no-repeat 0 0; }
+.fl .bm .bm_h h2.on strong{ background:url(fl_bm_h_on.gif) no-repeat 0 0;}
+.fl .bm .bm_h h2.on strong a{ background:url(fl_bm_h_on.gif) no-repeat 100% 100%;}
+
+/*四格*/
+.eis_sg{ background:url(sg.gif) repeat-x 0 0;}
+.eis_sg_h { background:url(sg_l.gif) no-repeat 0 0;} 
+.eis_sg_hr{ background:url(sg_r.gif) no-repeat 100% 0;}
+
+.eis_t1 .tb li.a{ background:url(t1_li.gif) no-repeat 0 0; }
+.eis_t1 .tb li.a a{ background:url(t1_li.gif) no-repeat 100% -28px;}
+
+
+.eis_footer,.eis_footer a{ color:#fff}
+
+
+/*分页*/
+.pg a, .pg strong, .pg label { background: url(pg_pg.gif) repeat-x 0 0;}
+.pg a:hover, .pg strong { border-color: #595959; background: url(pg_pg.gif) repeat-x 0 -29px; }
+.pg a.prev {  background: url(pg_prev.gif) no-repeat 50% 0; }
+.pg a.prev:hover { background: url(pg_prev.gif) no-repeat 50% -29px; }
+
+
+
+
+/*按钮*/
+.tb .o { border: 1px solid #5b5b5b; }
+.tb .o, .tb .o a { background: #919191 url(pn.png) repeat-x 0 -48px; }
+.pnc, a.pnc { border-color: #5b5b5b; background: #919191 url(pn.png) repeat-x 0 -48px; color: #FFF !important; }
+
+/* 重定义按钮 */
+.pgs #newspecial, .pgs #newspecialtmp { float: left; background: url(pn_post.png) no-repeat 0 0; }
+#post_reply, #post_replytmp { float: left; background: url(pn_reply.png) no-repeat 0 0; }
+.moodfm_btn { background-image: url(mood_input_btn.png) !important; }
+#create_group_btn { display: block; background: url(create_group.png) no-repeat 0 0; }
+.el .ec .hot, .clct_list .xld .m { background-image: url(hotspot.gif); }
+.pll .s { background-image:url(polljoins.gif); }
+
+/* 重定义广播 */
+	#uhd .tb a, #flw_header .bar { border-top-color: #ccc; }
+.flw_replybox { background-color: #f6f6f6; }
+	.flw_replybox .px, .flw_autopt, #flw_header .tedt { border-color: #ccc; }
+.pg_follow #fastpostsubmit { background-image: url(flw_post.png); }
+.flw_replybox .pnc { background-image: url(pn_reply.png); }
+.flw_replybox td table .pnc { background-image: url(pn_rt.png); }
+#flw_post_extra .sec { border-color: #ccc; background-color: #f6f6f6; }
+
+
+/* 重定义下拉菜单 */
+.p_pop a { border-bottom-color: #ccc; }
+	.p_pop a:hover, .p_pop a.a, #sctype_menu .sca { background-color: #ccc; color: #333; }
+	.blk a:hover { background-color: transparent; }
+	
+/*toptb*/
+.ie6 #eis_toptb{ background:url(toptb.gif);}
+
+/*快捷*/
+.ie6 #eqmenu{ background:url(eqmenu.gif) no-repeat 0 0;}
+.ie6 #eqmenu.a{ background:url(eqmenu.gif) no-repeat 0 -40px;}
+
+/*消息*/
+.ie6 #emn{ background:url(emn.gif) no-repeat 0 0;}
+.ie6 #emn.a{ background:url(emn.gif) no-repeat 0 -40px;}
+
+/*管理*/
+.ie6 #emod{ background:url(emod.gif) no-repeat 0 0;}
+.ie6 #emod.a{ background:url(emod.gif) no-repeat 0 -40px;}
+
+/*风格*/
+.ie6 #eis{ background:url(eis.gif) no-repeat 0 0;}
+.ie6 #eis.a{ background:url(eis.gif) no-repeat 0 -40px;}
+
+/*登陆*/
+.ie6 #elogin{ background:url(elogin.gif) no-repeat 0 0;}
+.ie6 #elogin.a{ background:url(elogin.gif) no-repeat 0 -40px;}
+
+/*主导航*/
+.ie6 #eis_nv{ background:url(nv.gif) no-repeat 0 0; }
+.ie6 .eis_nv{ background:url(nv.gif) no-repeat 100% 100%;}
+.ie6 .eis_nv ul{ background:url(nv.gif) repeat-x 0 -45px;}
+.ie6 .eis_nv ul li{ background:url(nv_li.gif) no-repeat 100% 12px; }
+
+.ie6 .eis_nv ul li.a{ background:url(nv_a.gif) no-repeat 0 0;}
+.ie6 .eis_nv ul li.a a{ background:url(nv_a.gif) no-repeat 100% 100%;}
+
+/*搜索*/
+.eis_nv form{ background:url(search.gif) no-repeat 0 10px;}

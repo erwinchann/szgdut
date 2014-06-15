@@ -1,0 +1,154 @@
+/* ----------------------------------
+
+Main CSS file for metro.
+http://www.mobanbus.cn.
+Created by 模板巴士.
+
+-------------------------------------*/
+
+
+/* 总体样式
+----------------------------------------------------------------------------------------------------*/
+body, input, button, select, textarea { font: 12px/1.5 "microsoft yahei"; color: rgb(105, 105, 105);}
+.mobanbus, .wp { display:block; width: 980px;margin:0 auto!important; padding:0!important;}
+.block{ display:block}
+.tbmu { padding: 10px}
+.a_mu { width: 980px; margin: 20px auto 0 auto; box-shadow: 0px 0px 2px rgba(207, 207, 207, 0.8); background: #FFFFFF}/* 二级导航广告位 */
+#chart { overflow: hidden; margin: 0; padding: 0}
+#pgbtn.pgbtn { display: none}
+.ie6 #ip_notice.focus.plugin { display: none}
+.ie6 #chart { overflow: hidden; margin: 0; padding: 0}
+a { text-decoration: none}
+
+#menu-main-nav-menu.sf-menu.sf-js-enabled.sf-shadow { width: 460px; height: 44px; line-height: 42px; margin-left: 0; _position: relative; overflow: hidden; background: none}
+.tbn li { border-bottom: 1px solid rgb(238, 238, 238) !important}
+.freeside { border: 0; margin: 0; padding: 0; background: none}
+.freesidetop { padding:0; margin: 15px 0 10px 0 !important; border: 0; background: none}
+.freesidetop2{ border:0; padding:0; margin: 15px 0 0 -8px !important; background: none}
+.mbt { margin: 15px 0 !important; padding: 0; border: 0; background: none}
+.ad980 { width: 980px; height: 90px; overflow: hidden; padding: 0; margin: 20px 0 !important; padding: 0; border: 0; background: none}
+.pluseImage:hover img { transform: scale(1.08, 1.08)}
+.transitionAll { transition: all 0.3s ease 0s}
+#postlist.pl.bm {}
+#f_pst.pl.bm.bmw { border: 3px solid #F0F4F8}
+#f_pst .plc { padding: 20px !important}
+.sitecontainer { width: 980px; height: auto}
+#fwin_showblock.fwinmask { z-index: 999 !important}
+.nav_box { float: left; height: 42px; background: none}
+#pt { height: 32px !important; line-height: 32px !important; padding: 10px 0 !important}
+#pt .z a, #pt .z span { height:16px; line-height: 32px}
+#pt .z em { text-indent: -9999px; background-position: 3px 11px}
+#pt .z { height: 32px; line-height: 32px}
+a.nvhm { line-height: 80px !important}
+#commentsubmit_btn strong { color: #FFFFFF}
+.nvhm { width:16px; height:16px; margin:8px 0; background: url({STYLEIMGDIR}/pt.png) no-repeat left top}
+.px, .pt, .ps, select {padding: 4px;line-height: 18px;border: 1px solid rgb(204, 204, 204);background-color: white;box-shadow: 2px 2px 2px rgb(240, 240, 240) inset;vertical-align: middle;margin: 0px;font-family: inherit;color: rgb(51, 51, 51);}
+.card_mn { background: #FFFFFF}
+img:honver{opacity: 0.8}
+.bus_w100{ width:100%}
+.bus_fl{ float:left!important}
+.bus_fr{ float:right!important}
+.bus_hide{ display:none!important;}
+.bus_box{}
+
+
+
+/*顶部导航*/
+
+#toptb { height:30px; line-height:30px; margin: 0 auto; width: 100%; z-index: 100;/*  position:fixed; box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);*/ background:rgba(246, 246, 246, 0.9);border-bottom: 1px solid #CDCDCD}
+#toptb .z a{ padding:0 10px 0 0; float:left}
+.ie6 #toptb { overflow: hidden}
+#switchblind { display: none}
+#diy-tg { margin-top: 3px}
+#toptb #diy-tg_menu { margin-top: -10px; margin-left: -8px}
+#nv_search .y { margin-right: 30px}
+#nv_search .searchform { margin-top: 30px}
+#nv_search #toptb { position: relative}
+
+#header_user { height: 30px; line-height: 30px; margin-top: 0; margin-right: 0; float: right}
+#header_nav .username { float: left; display: block; padding: 0 10px; width: 25px; height: 30px; line-height: 30px; display: block; margin-top: 0}
+#header_nav .username img { width: 20px; height: 20px; border-radius: 50%; margin-top:5px}
+#header_nav span { float: left; height: 30px; line-height: 30px;}
+.avatarimg:hover {  color: #333333 !important;}
+#header_nav span:hover a { color: #83C526 !important}
+#header_nav span a { font-size: 12px; height: 30px; line-height: 30px;font-family: "Microsoft Yahei"; padding: 0 10px}
+#um .new, .topnav .new, .sch .new, #toptb .new { font-weight: 400}
+#pm_ntc.new { background-repeat: no-repeat; background-position: 5px 3px; padding-left: 28px}
+#myprompt.new { background-repeat: no-repeat; background-position: 5px 3px; padding-left: 20px}
+#toptb #pm_ntc.new, #toptb #myprompt.new { background-position: 5px 8px}
+#umnav_menu { margin-left: -52px; margin-top: 0; top: 30px !important; border-top: 0 !important}
+#umnav_menu li a { float: none !important; width: 63px; height: 15px !important; line-height: 15px; padding: 7px 20px; border-bottom: 0}
+#umnav_menu li span.pipe { display: none}
+#umnav_menu li .qq_bind { margin-left: -18px}
+#umnav_menu li a:hover { color: #FFFFFF !important; border-bottom: 0; background: #83C526}
+.login_list {float: right;position: relative;overflow: hidden}
+.login_block {display: block;padding: 0px 10px;height: 30px;line-height: 30px;color: rgb(204, 204, 204)}
+a.login_block { height: 30px !important; line-height: 30px; padding: 0 8px !important; color: #333 !important}
+.login_block:hover { background: #FFFFFF; color: rgb(51, 51, 51)}
+a.login_block:hover { color:#83C526 !important}
+.login_block i, .usernav li .png i, .userinfo .arrow, .login_list .i_qq, .login_list .i_wb, .nav_icon {display: block;background: url({STYLEIMGDIR}/icon.png) no-repeat 0 0}
+.login_list .i_qq, .login_list .i_wb {width: 30px;height: 29px;margin:1px 0 0 0;text-indent: -9999px;cursor: pointer}
+.login_list .i_qq { margin-left: 5px; background-position: -145px 0}
+.login_list .i_wb {background-position: -110px 0;margin-right: 0}
+.login_list a:hover .i_qq {background-position: -217px 0}
+.login_list a:hover .i_wb {background-position: -183px 0}
+.m_l, .m_r, .t_l, .t_c, .t_r, .b_c, .b_l, .b_r {display: none;}
+.m_c .flb em {color: rgb(76, 76, 76);text-shadow: 0px 1px 1px rgb(255, 255, 255);}
+.m_c .flb{line-height: 18px;padding: 9px 9px 8px 15px;border-top: 1px solid rgb(255, 255, 255);border-bottom: 1px solid rgb(229, 229, 229);background: none repeat scroll 0% 0% rgb(247, 247, 247);margin-bottom: 10px;}
+.m_c {box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);border: 1px solid rgb(221, 221, 221)}
+.rfm a {color: rgb(49, 132, 219);}
+.rfm .px:focus {border-color: rgb(49, 132, 219);background: none repeat scroll 0% 0% rgb(255, 255, 255);}
+
+/*导航*/
+.bus_header{width:100%; height:50px; padding:25px 0; background:#fff; border-bottom:1px solid #ddd; overflow: hidden;}
+.bus_logo{display:inline;width:280px; height:50px;}
+.bus_logo a{ width:280px; height:50px; display:block; overflow: hidden;}
+.ad_header{ width: 539px; height: 88px; display:inline; margin:12px 0 0 76px; overflow: hidden;}
+.ad_header img{ width: 539px; height:88px;}
+.bus_nav, #nv{width:100%; height:50px; background:#fff;}
+.bus_nav ul.bus_box{ width:700px; overflow:hidden; float:right;}
+.bus_nav li, #nv li{height:50px; float:right; overflow: hidden;font-size:14px;background:none}
+.bus_nav li a, #nv li a{color:#777; font-family:"微软雅黑";display:inline-block;height:40px;line-height:40px; padding:0 15px 10px 15px; margin:0 0 15px 0; }
+.bus_nav li.select a, #nv li.select a, .bus_nav li a:hover, #nv li a:hover{color:#83c526;border-bottom:2px solid #83c526;padding:0 15px;}
+.bus_nav li.hover a, #nv li.hover a, #nv li.hover a:hover, #nv li.hover a, #nv li a:hover{ background:none!important;}
+.bus_search{ width:290px; height:27px; float:right; margin:2px 10px 1px 0; line-height:normal; overflow: hidden; }
+.input_search{ background:#fff; border:none; height:29px; border:1px solid #EA4A2D; line-height:31px; padding:0 5px; width:122px; float:left; float: left;color:#999;}
+.btn_search{ background:url({STYLEIMGDIR}/search_btn.png) no-repeat; border:none; height:31px; width:36px; cursor:pointer; float: left;}
+
+/*搜索*/
+#scbar { float:right; height: 25px; line-height: 25px; border:1px solid #eee; overflow: visible; border-radius: 5px; background:#fff}
+#scbar.longer { border-color:#ddd;outline: 0;}
+#scbar_txt {border:0; height: 23px; line-height: 23px; _line-height: 25px; width:100px!important; _width: 90px; padding: 0 5px;font-size: 12px; transition: all 0.3s ease-in-out 0s; overflow: hidden; text-overflow: ellipsis; background: none}
+.ie7 #scbar_txt { width: 100px}
+#scbar.longer #scbar_txt { width: 200px; _width: 90px; border: 0; -webkit-transition: all 0.3s ease-in-out 0s;-moz-transition: all 0.3s ease-in-out 0s;-o-transition: all 0.3s ease-in-out 0s;transition: all 0.3s ease-in-out 0s}
+.ie7 #scbar.longer #scbar_txt { width: 200px}
+#scbar_type { display: block; padding-left: 10px; text-align: left; text-decoration: none}
+.scbar_type_td #scbar_type { width:40px; border: 0; background: none}
+#scbar.longer .scbar_type_td #scbar_type { transition: all 0.3s ease-in-out 0s}
+.scbar_txt_td { border: medium none}
+.scbar_txt_td, .scbar_type_td { background: none repeat scroll 0% 0% transparent}
+.scbar_type_td { _position: relative; width: 40px; _width: 35px; overflow: hidden}
+#scbar_type.xg1 { height: 23px !important; line-height: 23px; _line-height: 25px}
+.scbar_btn_td {width:20px;height: 20px; border-radius:0 3px 3px 0;padding:3px 0 3px 5px; background: url({STYLEIMGDIR}/connect-icons.png) no-repeat 1px 1px #E45A61; display: block; overflow:hidden;}
+#scbar_btn {width:20px;height: 20px; margin: 0; padding: 0; border: medium none ;background:none; box-shadow: none}
+#scbar_type { color: #999999}
+#scbar_type_menu { top: 42px !important; _width: 60px}
+#scbar_type_menu li a { padding: 8px 10px; height: 10px; line-height: 10px !important}
+
+
+
+
+/*DIY*/
+.frame, .frame-tab { background: none; border: none; padding: 0; margin: 0}
+.block { margin: 0}
+.temp { margin: 0}
+
+/*下拉菜单*/
+.p_pop, .p_pof, .sllt { border: 1px solid #EEEEEE;background:rgba(255, 255, 255, 0.9);box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15); padding: 0}
+.h_pop {padding:0;border: 1px solid #DDD;min-width:100px;background:#FEFEFE;box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);}
+.h_pop a {display: block;padding: 3px 5px;border-bottom: 1px solid #E5EDF2;white-space: nowrap;}
+.h_pop a:hover {background:#ededed}
+.bui a, .bui a:hover { padding: 0; border: none; background: none}
+#nv_search .h_pop { top: 28px !important}
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[nds_votekick.plugin]]></item>
+	<item id="RevisionID"><![CDATA[82]]></item>
+	<item id="SN"><![CDATA[2014061000Hl4KHCFRNC]]></item>
+	<item id="RevisionDateline"><![CDATA[1338528459]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_nds_votekick_SC_GBK.xml"><![CDATA[de13c053303319c85baeca7d2db91ec2]]></item>
+		<item id="/discuz_plugin_nds_votekick_SC_UTF8.xml"><![CDATA[87f5a0aaddcbdbb33f6cc1668cc2507a]]></item>
+		<item id="/discuz_plugin_nds_votekick_TC_BIG5.xml"><![CDATA[23a838e25c58141da0acd7e8a60ad1d2]]></item>
+		<item id="/discuz_plugin_nds_votekick_TC_UTF8.xml"><![CDATA[4714d64e95d649eadbb9e8bc65997fa5]]></item>
+		<item id="/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/install.php"><![CDATA[916919127062353d35dc67280dc3f8b0]]></item>
+		<item id="/nds_votekick.class.php"><![CDATA[656ed80ebb087e40030b0b0b8375bb50]]></item>
+		<item id="/nds_votekickcp.inc.php"><![CDATA[841cc7e0a586aef66cec0c18b001a7c8]]></item>
+		<item id="/template/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/template/votekick.htm"><![CDATA[0df71f67ef81ba8cce0deb969b4bf90e]]></item>
+		<item id="/template/votekickwindow.htm"><![CDATA[341bb42e3d192473f8c2edd61109cf56]]></item>
+		<item id="/uninstall.php"><![CDATA[597c35b1b5032b776853401c7d26feb5]]></item>
+		<item id="/upgrade.php"><![CDATA[1d2456231de9b819d1591edb7959952b]]></item>
+	</item>
+</root>

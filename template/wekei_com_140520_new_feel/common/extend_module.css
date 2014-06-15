@@ -1,0 +1,17 @@
+/*
+未来科技
+自定义或重定义 默认 module.css 文件相关属性
+http://www.wekei.cn
+*/
+
+
+
+/** forum::index,forum::forumdisplay,group::index,group::group,search::group **/
+.fl {}
+
+/* .fl limit */
+.fl .bm_h { height:40px; line-height:40px; border-color:#ccc; box-shadow: 0 1px 0 #eee; background: #f2f2f2 ; } 
+	.fl .bm_h h2 a { font-size:16px; color:#333; }
+
+/** end **/
+

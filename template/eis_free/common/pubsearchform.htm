@@ -1,0 +1,9 @@
+<form method="{if $_G[fid] && !empty($searchparams[url])}get{else}post{/if}" autocomplete="off"action="{if $_G[fid] && !empty($searchparams[url])}$searchparams[url]{else}search.php?searchsubmit=yes{/if}" target="_blank">
+<input type="hidden" name="mod" id="scbar_mod" value="forum" />
+<input type="hidden" name="formhash" value="{FORMHASH}" />
+<input type="hidden" name="srchtype" value="title" />
+<input type="hidden" name="srhfid" value="$_G[fid]" />
+<input type="hidden" name="srhlocality" value="$_G['basescript']::{CURMODULE}" />
+<input type="text" name="srchtxt" id="eskey" autocomplete="off" />
+<button type="submit" name="searchsubmit" id="esbtn" sc="1" value="true"></button>
+</form>

@@ -1,0 +1,243 @@
+/* CSS Document */
+
+
+.eis_wp{ width:980px; margin:0 auto;}
+.eis_wp988{ width:988px; margin:0 auto;}
+
+#eis_toptb{ position: fixed; width:100%; z-index:10; height:40px; background:url({STYLEIMGDIR}/toptb.png);}
+
+#hd{ border:0px;}
+/*顶部导航左侧*/
+#eis_toptb .z{ line-height:40px; }
+#eis_toptb .z a{ color:#fff; float:left}
+#eis_toptb .z .pipe{ float:left; color:#fff}
+
+#hd .eis_wp{ padding-top:55px;}
+.ie6 #hd .eis_wp { padding-top:15px;}
+#hd h2 { padding: 0 20px 15px 0;}
+
+.eis_body_1{ background:url({STYLEIMGDIR}/body.jpg) no-repeat 50% 0;}
+
+/*顶部导航右侧*/
+#eis_toptb .y a,#eis_toptb .y strong{ color:#fff; float:left; line-height:40px; padding:0 5px;}
+#eis_toptb .y .pipe{ display:none}
+.eis_tpipe{ float:left; width:1px; height:40px; background:url({STYLEIMGDIR}/tpipe.png) no-repeat 0 0;}
+
+/*头像*/
+.eis_ttbat img{ width:30px; height:30px; margin-top:5px;}
+
+
+/*快捷导航*/
+#eqmenu{ float:left; width:40px; padding:0px !important; height:40px; text-indent:-9999px; background:url({STYLEIMGDIR}/eqmenu.png) no-repeat 0 0;}
+#eqmenu.a{ background:url({STYLEIMGDIR}/eqmenu.png) no-repeat 0 -40px;}
+
+/*消息*/
+#emn{ float:left; width:40px; padding:0px !important; height:40px; text-indent:-9999px; background:url({STYLEIMGDIR}/emn.png) no-repeat 0 0;}
+#emn.a{ background:url({STYLEIMGDIR}/emn.png) no-repeat 0 -40px;}
+
+/*管理*/
+#emod{ float:left; width:40px; padding:0px !important; height:40px; text-indent:-9999px; background:url({STYLEIMGDIR}/emod.png) no-repeat 0 0;}
+#emod.a{ background:url({STYLEIMGDIR}/emod.png) no-repeat 0 -40px;}
+
+/*风格*/
+#eis{ float:left; width:40px; padding:0px !important; height:40px; text-indent:-9999px; background:url({STYLEIMGDIR}/eis.png) no-repeat 0 0;}
+#eis.a{ background:url({STYLEIMGDIR}/eis.png) no-repeat 0 -40px;}
+
+/*登陆*/
+#elogin{ float:left; width:40px; padding:0px !important; height:40px; text-indent:-9999px; background:url({STYLEIMGDIR}/elogin.png) no-repeat 0 0;}
+#elogin.a{ background:url({STYLEIMGDIR}/elogin.png) no-repeat 0 -40px;}
+
+
+
+/*通用下拉菜单*/
+.eis_pop,#eis_menu{ padding:5px 10px; background:url({STYLEIMGDIR}/eis_pop.gif) no-repeat 100% 0 #fff; border:1px solid #ddd; border-top:0px; margin-left:-5px; margin-top:0px;}
+.eis_pop li{ border-bottom:1px solid #eee; height:30px; line-height:30px;}
+.eis_pop a{ background-repeat:no-repeat; padding-left:20px; color:#666;}
+
+.ie6 .eis_pop{ width:80px;}
+/*登陆下拉菜单*/
+.usina{ padding-left:20px; background:url({STYLEIMGDIR}/usina.gif) no-repeat;}
+.uqq{ padding-left:20px; background:url({STYLEIMGDIR}/uqq.gif) no-repeat; }
+
+.ie6 #elogin_menu{ width:130px;}
+
+
+
+/*短信*/
+#emn_menu #pm_ntc{ background-image: url({STYLEIMGDIR}/u_pm.gif); }
+#emn_menu #pm_ntc.new{ background-image: url({STYLEIMGDIR}/u_newpm.gif); }
+
+/*提醒*/
+#emn_menu #myprompt{ background-image: url({STYLEIMGDIR}/u_prompt.gif); }
+#emn_menu #myprompt.new{ background-image: url({STYLEIMGDIR}/u_newprompt.gif); background-position: 0 50%; }
+
+/*任务*/
+#emn_menu #task_ntc{ background-image: url({STYLEIMGDIR}/u_task.gif); }
+
+
+/*切换风格*/
+#eis_menu { padding:10px 5px 0 5px; width: 330px;}
+
+.eis_skin{}
+.eis_skin li{ float:left; width:100px; height:60px; overflow:hidden; padding:0 5px 10px 5px; }
+.eis_skin li i{ float:left; width:100px; height:60px; overflow:hidden; background:url({STYLEIMGDIR}/default.gif) no-repeat 0 0; cursor:pointer}
+.eis_skin li.end{ padding:0px;}
+
+/*设置*/
+.u31{ background: url({STYLEIMGDIR}/u31.gif) no-repeat;}
+.u32{ background: url({STYLEIMGDIR}/u32.gif) no-repeat;}
+.u33{ background: url({STYLEIMGDIR}/u33.gif) no-repeat;}
+.u34{ background: url({STYLEIMGDIR}/u34.gif) no-repeat;}
+.u35{ background: url({STYLEIMGDIR}/u35.gif) no-repeat;}
+.u36{ background: url({STYLEIMGDIR}/u36.gif) no-repeat;}
+
+/*导航*/
+#eis_nv{ background:url({STYLEIMGDIR}/nv.png) no-repeat 0 0; padding-left:14px;}
+.eis_nv{ background:url({STYLEIMGDIR}/nv.png) no-repeat 100% 100%; padding-right:14px;}
+.eis_nv ul{ height:45px; padding-left:5px; line-height:45px; overflow:hidden; background:url({STYLEIMGDIR}/nv.png) repeat-x 0 -45px;}
+.eis_nv ul li{ float:left; font-size:16px; height:45px; background:url({STYLEIMGDIR}/nv_li.png) no-repeat 100% 12px; }
+.eis_nv ul li span{ display:none;}
+.eis_nv ul li a{ padding:0 16px 0 15px; float:left; height:45px; color:#fff;}
+.eis_nv ul li a:hover{ text-decoration:none; color:#ff0}
+
+.eis_nv ul li.a{ margin-left:-5px; padding-left:15px; background:url({STYLEIMGDIR}/nv_a.png) no-repeat 0 0;}
+.eis_nv ul li.a a{ padding:0 15px 0 0; color:#333; background:url({STYLEIMGDIR}/nv_a.png) no-repeat 100% 100%;}
+.eis_nv ul li.a a:hover{ color:#333}
+
+/*搜索*/
+.eis_nv form{ float:right; width:210px; height:24px; line-height:24px; padding-left:10px; padding-top:10px; overflow:hidden; background:url({STYLEIMGDIR}/search.gif) no-repeat 0 10px;}
+#eskey{ width:150px; background:none; border:0px;}
+#esbtn{ width:50px; height:24px; padding:0px; margin:0px; border:0px; background:none; cursor:pointer; vertical-align:top}
+
+/*顶部广告*/
+.eis_topad{ float:right; width:500px; height:60px; overflow:hidden; margin-top:20px;}
+
+/*容器*/
+.eis_wp_l{ padding-left:4px; background:url({STYLEIMGDIR}/wp_l.png) repeat-y 0 0;}
+.eis_wp_r{ padding-right:4px; background:url({STYLEIMGDIR}/wp_r.png) repeat-y 100% 0;}
+.eis_wp_t{ padding-top:5px; background:url({STYLEIMGDIR}/wp_t.gif) repeat-x 0 0 #fff;}
+
+/*底部*/
+.eis_footer{ text-align:center; line-height:20px; padding-bottom:20px;}
+.eis_footer_l{ background:url({STYLEIMGDIR}/eis_footer.png) no-repeat 0 0; padding-left:15px;}
+.eis_footer_r{ background:url({STYLEIMGDIR}/eis_footer.png) no-repeat 100% 100%; padding-right:15px;}
+.eis_footer_c{ height:48px; line-height:45px; text-align:center; background:url({STYLEIMGDIR}/eis_footer.png) repeat-x 0 -48px;}
+
+/* 跳转 */
+.nfl { padding-top:60px;}
+.nfl .f_c { margin: 0 auto;}
+
+/*论坛*/
+.fl{ border:0px;}
+.fl .bm{ margin-bottom:10px; background:url({STYLEIMGDIR}/fl_bm.gif) repeat-x 0 0;}
+.fl .bm .bm_c{ border:1px solid #ddd; background:url({STYLEIMGDIR}/fl_bm_c.gif) repeat-x 0 100%; }
+.fl .bm .bm_h{ height:40px; line-height:45px; overflow:hidden; border:0px; padding-left:0px; padding-right:15px; background:url({STYLEIMGDIR}/fl_bm_h.gif) no-repeat 100% 0;}
+.fl .bm .bm_h h2,.fl .bm .bm_h h3{ float:left; font-size:16px; height:40px; padding-left:15px; background:url({STYLEIMGDIR}/fl_bm_h_h2.gif) no-repeat 0 0; }
+.fl .bm .bm_h h2 a,.fl .bm .bm_h h3 a{ color:#333}
+
+.fl .bm .bm_h h2.on{ padding-left:0px; background:none;}
+.fl .bm .bm_h h2.on strong{ float:left; padding-left:44px; background:url({STYLEIMGDIR}/fl_bm_h_on.gif) no-repeat 0 0;}
+.fl .bm .bm_h h2.on strong a{ float:left; padding-right:40px; line-height:40px; color:#fff; background:url({STYLEIMGDIR}/fl_bm_h_on.gif) no-repeat 100% 100%;}
+
+.fl .bm .bm_h span.o{ margin-top:6px;}
+
+
+.eis_fl_forum h2{ font-size:14px; font-weight:100}
+.eis_fl_forum h2 a{ color:#333;}
+.eis_fl_forum h2 em{ font-size:12px;}
+.eis_fl_forum p{ color:#999}
+
+.eis_fl_forum img{ float:right; margin-left:10px;}
+.eis_fn{ float:right; margin-left:10px; width:62px; height:62px; line-height:60px; font-size:36px; text-align:center; color:#999;background:url({STYLEIMGDIR}/fn.gif) no-repeat 0 0;}
+.eis_fn:hover{ text-decoration:none}
+
+
+/*面包屑导航*/
+#pt{ margin: 0px 0 5px 0;}
+.nvhm { background: url({STYLEIMGDIR}/pt.gif) no-repeat 0 7px;}
+#pt .z em { background: url({STYLEIMGDIR}/ptem.gif) no-repeat 3px 7px;}
+
+.ie_all .nvhm{ background: url({STYLEIMGDIR}/pt.gif) no-repeat 0 6px;}
+.ie_all #pt .z em{ background: url({STYLEIMGDIR}/ptem.gif) no-repeat 2px 7px;}
+
+/*分页*/
+.pg, .pgb { line-height: 29px; }
+.pg a, .pg strong, .pg label { height: 29px; border-color: #ddd; background: url({STYLEIMGDIR}/pg_pg.gif) repeat-x 0 0; color:#333;}
+.pg a:hover, .pg strong { border-color: #26678c; color: #fff; background: url({STYLEIMGDIR}/pg_pg.gif) repeat-x 0 -29px; }
+
+.pgb{ width:86px; padding:0px; overflow:hidden;}
+.pgb a{ border:0px; height:31px; line-height:29px; width:82px; padding:0px; text-indent:20px; font-size:14px; overflow:hidden; background: url({STYLEIMGDIR}/pg_pgb.gif) no-repeat 0 0;}
+.pgb a:hover { color: #000; background: url({STYLEIMGDIR}/pg_pgb.gif) no-repeat 0 -31px; }
+
+.pg a.nxt { border:0px; margin-right:0px; height:31px; line-height:29px; width:82px; padding:0px; text-indent:15px; font-size:14px; overflow:hidden; background: url({STYLEIMGDIR}/pg_next.gif) no-repeat 0 0; }
+.pg a.nxt:hover{ color: #000; background: url({STYLEIMGDIR}/pg_next.gif) no-repeat 0 -31px;}
+.ie6 .pg a.nxt{ margin-right:-15px; }
+
+.pg a.prev {  background: url({STYLEIMGDIR}/pg_prev.gif) no-repeat 50% 0; }
+.pg a.prev:hover { background: url({STYLEIMGDIR}/pg_prev.gif) no-repeat 50% -29px; }
+
+
+.tl th, .tl td { padding: 7px 0 !important;}
+.emptb th, .emptb td { padding: 0!important;}
+/*==================================================配色==================================================*/
+
+/*按钮*/
+.tb .o, .tb .o a { background: #06779e url({STYLEIMGDIR}/pn.png) repeat-x 0 -48px; }
+.pnc, a.pnc { background: #06779e url({STYLEIMGDIR}/pn.png) repeat-x 0 -48px; color: #FFF !important; }
+
+/* 重定义按钮 */
+.pgs #newspecial, .pgs #newspecialtmp { float: left; background: url({STYLEIMGDIR}/pn_post.png) no-repeat 0 0; }
+#post_reply, #post_replytmp { float: left; background: url({STYLEIMGDIR}/pn_reply.png) no-repeat 0 0; }
+	#newspecial img, #newspecialtmp img, #post_reply img, #post_replytmp img { opacity: 0; filter: alpha(opacity=0); }
+.moodfm_btn { background-image: url({STYLEIMGDIR}/mood_input_btn.png) !important; }
+#create_group_btn { display: block; background: url({STYLEIMGDIR}/create_group.png) no-repeat 0 0; }
+	#create_group_btn img { opacity: 0; filter: alpha(opacity=0); }
+.el .ec .hot, .clct_list .xld .m { background-image: url({STYLEIMGDIR}/hotspot.gif); }
+.pll .s { background-image:url({STYLEIMGDIR}/polljoins.gif); }
+
+/* 重定义广播 */
+.pg_follow #fastpostsubmit { background-image: url({STYLEIMGDIR}/flw_post.png); }
+.flw_replybox .pnc { background-image: url({STYLEIMGDIR}/pn_reply.png); }
+.flw_replybox td table .pnc { background-image: url({STYLEIMGDIR}/pn_rt.png); }
+
+/*-------------------------------------------------------------------------------IE6*/
+/*全局*/
+.ie6 .eis_wp_l{ background:none;}
+.ie6 .eis_wp_r{ background:none;}
+
+/*底部*/
+.ie6 .eis_footer_l{ background:url({STYLEIMGDIR}/eis_footer.gif) no-repeat 0 0;}
+.ie6 .eis_footer_r{ background:url({STYLEIMGDIR}/eis_footer.gif) no-repeat 100% 100%;}
+.ie6 .eis_footer_c{ background:url({STYLEIMGDIR}/eis_footer.gif) repeat-x 0 -48px;}
+
+/*toptb*/
+.ie6 #eis_toptb{ background:url({STYLEIMGDIR}/toptb.gif);}
+
+/*快捷*/
+.ie6 #eqmenu{ background:url({STYLEIMGDIR}/eqmenu.gif) no-repeat 0 0;}
+.ie6 #eqmenu.a{ background:url({STYLEIMGDIR}/eqmenu.gif) no-repeat 0 -40px;}
+
+/*消息*/
+.ie6 #emn{ background:url({STYLEIMGDIR}/emn.gif) no-repeat 0 0;}
+.ie6 #emn.a{ background:url({STYLEIMGDIR}/emn.gif) no-repeat 0 -40px;}
+
+/*管理*/
+.ie6 #emod{ background:url({STYLEIMGDIR}/emod.gif) no-repeat 0 0;}
+.ie6 #emod.a{ background:url({STYLEIMGDIR}/emod.gif) no-repeat 0 -40px;}
+
+/*风格*/
+.ie6 #eis{ background:url({STYLEIMGDIR}/eis.gif) no-repeat 0 0;}
+.ie6 #eis.a{ background:url({STYLEIMGDIR}/eis.gif) no-repeat 0 -40px;}
+
+/*登陆*/
+.ie6 #elogin{ background:url({STYLEIMGDIR}/elogin.gif) no-repeat 0 0;}
+.ie6 #elogin.a{ background:url({STYLEIMGDIR}/elogin.gif) no-repeat 0 -40px;}
+
+/*主导航*/
+.ie6 #eis_nv{ background:url({STYLEIMGDIR}/nv.gif) no-repeat 0 0; }
+.ie6 .eis_nv{ background:url({STYLEIMGDIR}/nv.gif) no-repeat 100% 100%;}
+.ie6 .eis_nv ul{ background:url({STYLEIMGDIR}/nv.gif) repeat-x 0 -45px;}
+.ie6 .eis_nv ul li{ background:url({STYLEIMGDIR}/nv_li.gif) no-repeat 100% 12px; }
+
+.ie6 .eis_nv ul li.a{ background:url({STYLEIMGDIR}/nv_a.gif) no-repeat 0 0;}
+.ie6 .eis_nv ul li.a a{ background:url({STYLEIMGDIR}/nv_a.gif) no-repeat 100% 100%;}
